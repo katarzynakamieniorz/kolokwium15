@@ -13,8 +13,8 @@ namespace ProgramKolokwium
 
         public void UstawPunkt ()
         {
-            PierwszaW = 0;
-            DrugaW = 0;
+            PierwszaW = 1;
+            DrugaW = 1;
                         
         }
 
@@ -28,9 +28,13 @@ namespace ProgramKolokwium
         {
 
             String WybranaFigura;
-            
+
             
 
+            Console.WriteLine("Podaj pierwsza wspolrzedna punktu zaczepienia");
+            PierwszaW = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj druga wspolrzedna punktu zaczepienia");
+            DrugaW = Int32.Parse(Console.ReadLine());
 
 
             Console.WriteLine("T - trapez prostokatny\nO - okrag\nP - prostokat");
