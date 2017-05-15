@@ -18,7 +18,7 @@ namespace Testy
         }
 
         [TestMethod]
-        public int TestMethod2 (int bok)
+        public int TestObliczBok (int bok)
         {
 
             return bok;

@@ -9,9 +9,12 @@ namespace ProgramKolokwium
     class Program
     {
 
-        public void UstawPunkt (int PierwszaWspolrzedna, int DrugaWspolrzedna)
+        int PierwszaW, DrugaW;
+
+        public int UstawPunkt ()
         {
-            
+            return 0;
+                        
         }
 
         public int ObliczBokProstokata ()
@@ -24,7 +27,8 @@ namespace ProgramKolokwium
         {
 
             String WybranaFigura;
-            int PierwszaW, DrugaW;
+            
+            
 
 
 
