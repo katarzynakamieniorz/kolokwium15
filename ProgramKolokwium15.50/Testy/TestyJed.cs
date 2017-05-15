@@ -32,7 +32,7 @@ namespace Testy
         }
 
         [TestMethod]
-        public void TestObliczBok (int bok)
+        public void TestObliczBok1 (int bok)
         {
             bok = 0;
 
@@ -42,9 +42,20 @@ namespace Testy
 
         }
 
-      
-            
-            
-            
+        public void TestObliczBok2(int bok)
+        {
+            bok = 0;
+
+            int BokTestowany = ProgramKolokwium.Program.BokDrugi;
+
+            Assert.AreEqual(bok, BokTestowany);
+
+        }
+
+       
+
+
+
+
     }
 }
